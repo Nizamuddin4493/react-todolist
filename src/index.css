@@ -1,13 +1,74 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(255, 238, 218);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.todoAppBody {
+  width: 350px;
+  margin: 50px auto 50px auto;
+  min-height: 500px;
+  background-color: bisque;
+  border: 2px solid green;
+  border-radius: 5px;
+}
+
+.header {
+  margin: 10px auto 5px auto;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-dev  {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-field{
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  width: 75%;
+  padding: 8px;
+  border: 1px solid green;
+  background-color: rgb(255, 238, 218);
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 4px 0 0 4px;
+}
+
+/* .input-field:focus {
+  border: none;
+} */
+
+.input-btn {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 238, 218);
+  font-size: 17px;
+  font-family: 'Josefin Sans', sans-serif;
+  border: 1px solid green;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
 }
