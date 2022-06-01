@@ -39,14 +39,14 @@ h4 {
   flex-direction: row;
 }
 
-.input-dev  {
+.input-dev {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
 
-.input-field{
+.input-field {
   display: flex;
   flex-direction: row;
   font-size: 17px;
@@ -57,10 +57,6 @@ h4 {
   font-family: 'Josefin Sans', sans-serif;
   border-radius: 4px 0 0 4px;
 }
-
-/* .input-field:focus {
-  border: none;
-} */
 
 .input-btn {
   display: flex;
